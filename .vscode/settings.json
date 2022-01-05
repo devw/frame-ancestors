@@ -4,5 +4,9 @@
     "titleBar.activeBackground": "#fe3cee",
     "titleBar.activeForeground": "#FAFCFB"
   },
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "files.exclude": {
+    "**/.next": true,
+    "**/node_modules": true
+  }
 }

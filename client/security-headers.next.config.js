@@ -9,9 +9,13 @@ module.exports = {
     headers: async () => {
         return [
             {
-                // Apply these headers to all routes in your application.
-                source: '/(.*)',
-                headers: securityHeaders,
+                source: '/blog/:id',
+                headers: [
+                    {
+                        key: 'X-nextConfig-header',
+                        value: ':id',
+                    },
+                ],
             },
         ];
     },

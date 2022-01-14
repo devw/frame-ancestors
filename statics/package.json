@@ -1,0 +1,9 @@
+{
+    "name": "statics",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "echo  'Click on \"Go Live\" button to launch a local development server!'"
+    }
+}
